@@ -20,14 +20,7 @@ body {
   color: var(--text);
   line-height: 1.6;
 }
-.darkmode{
-  --base-color: #070b1d;
-  --base-variant: #101425;
-  --text-color: #ffffff;
-  -secondary-text: #a4a5b8;
-  --primary-text: #3a435d;
-  --accent: #0071ff;
-}
+
 
 .container {
   max-width: 1200px;
@@ -286,7 +279,7 @@ header {
    --base-variant: #e8e9ed;
    --text-color: #111528;
    -secondary-text: #232738;
-   --primary-text: #3a435d;
+   --primary-c: #3a435d;
    --accent: #0071ff;
  }
 .darkmode {
@@ -312,7 +305,7 @@ header {
    right: 20px;
  }
  #theme-switch svg{
-   fill: var(--primary-color);
+   fill: var(--primary);
  }
  #theme-switch svg:last-child {
    display: none;
